@@ -8,7 +8,7 @@
 # Define Variables
 # ----------------------------------------
 
-MYUSERNM="arch"
+MYUSERNM="arch-live"
 # use all lowercase letters only
 
 MYUSRPASSWD="arch"
@@ -17,7 +17,7 @@ MYUSRPASSWD="arch"
 RTPASSWD="arch"
 # Pick a root password
 
-MYHOSTNM="arch"
+MYHOSTNM="arch-plasma"
 # Pick a hostname for the machine
 
 # ----------------------------------------
