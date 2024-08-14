@@ -314,16 +314,16 @@ mesa-vdpau
 # Nvidia video drivers (untested)
 # uncomment the following to add nvidia graphics support
 # geforce RTX-GTX closed source drivers
-# nvidia
-# nvidia-utils
-# libva-vdpau-drivers
-# nvidia settings
+nvidia
+nvidia-utils
+libva-vdpau-drivers
+nvidia settings
 
 # Geforce open driver
-# xf86-video-nouveau
+xf86-video-nouveau
 
 #Hybrid nvidia graphics manager
-# nvidia-prime
+nvidia-prime
 
 # XORG
 
