@@ -1,36 +1,27 @@
 # Arch-Offline-Installer (WIP)
 A completely offline, vanilla Arch Linux installer.
 
+# Introduction:
+
+This project aims to simplify the process of installing vanilla Arch Linux on x86-64 systems, by releasing fully fledged, offline isos with everything already prepacked for a daily use. no extra apps will ever added but the barebones to have a functional system. Drivers for AMD, Intel, Nvidia (wip), and wireless cards are already integrated, so you don't need to add it yourself after a minimal, barebones base Arch installation. it should work as intended on most sytems.
+Additionally, the ISOs can be used to rescue already installed systems, as those include all the neccesary tools to troubleshoot. you can chroot, clone, partition and more if you ever have the need, while still keeping the Arch KISS philosophy. 
+
+As such, this project goal isn't becoming an Arch based full fledged distro, but rather remain as close as possible to the vanilla base, but completely offline + minor tweaks inspired by Archboot project (https://archboot.com).
+
+
+# Personal Insight:
+I started this project for myself, after installing Arch countless times, using both the wiki, manual way, and the official archinstall script. great, you get a vanilla barebones system, but I've faced times when the internet connection became unstable or just disconnected, rendering the install process into a broken mess. after researching, and trying several solutions, including archboot, from which I took inspiration for this project (https://archboot.com/), I was still unsatisfied with the results. so, I began working on this. 
+
+
+
 ### Note: This is a work in progress, being done on my free time.
 
-## Forked from EZArcher by EZnix on SourceForge. All template credits go to him.
-source: https://sourceforge.net/projects/ezarch/
-
-This project exists as a personal project as response to the official Arch ISO lacking an offline way to install Arch. Altought the official method is powerful and great, there are moments when a hi-speed internet connection is out of reach. that's where this project comes to mind. 
-
 releases will be added once enough testing is done.
-
+automated monthly releases are planned.
 
 ### Preview: 
 
-![VirtualBox_Archboot_14_08_2024_01_35_05](https://github.com/user-attachments/assets/7dbfc271-117e-4ac2-a4d2-53bc4206a248)
-
-
-## TO-DO list:
-
-- remove root password requirement on live session login
-- enable autologin
-- add calamares installer icon on live session desktop
-- set a custom wallpaper for the live session
-- make a script that removes calamares icon and itself once the system reboots to the newly installed system
-- add nvidia hardware support and boot entry
-- create branding and clean up code
-- create spins for WMs (help wanted)
-- add custom fonts package
-- add encryption support/test it
-- make the other DE spins, starting with GNOME
-- with time, I'll try to make a gnome variant of the ISO, something EZarcher haven't done so far.
-- you tell me :)
+![Captura de pantalla_20240814_125558](https://github.com/user-attachments/assets/5669d358-5283-4b54-a552-45d2698eadbd)
 
 
 # Help wanted
@@ -39,3 +30,26 @@ releases will be added once enough testing is done.
 - need help adding an nvidia boot option to grub ISO
 - help adding more features to calamares
 - help with cleaning the code
+
+  
+## TO-DO list:
+
+- ~~remove root password requirement on live session login~~ thanks to HikariNeee for the fix.
+- ~~enable autologin~~ fixed thanks to HikariNeee
+- add calamares installer icon on live session desktop
+- make calamares not ask for sudo password when being launched to install
+- set a custom wallpaper for the live session
+- make a script that removes calamares icon and itself once the system reboots to the newly installed system
+- add nvidia hardware support and boot entry (wip)
+- create branding and clean up code
+- add custom fonts package
+- add encryption support/test it
+- make the other DE spins, starting with GNOME
+- you tell me :)
+
+# Sources:
+
+ ### Main code forked from EZArcher by EZnix on SourceForge. All template credits go to him.
+source: https://sourceforge.net/projects/ezarch/
+Main idea inspired by Archboot project, thanks to them for giving me advice and the base concepts and ideas to begin this project.
+
