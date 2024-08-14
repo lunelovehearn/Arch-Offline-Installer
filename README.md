@@ -27,6 +27,7 @@ releases will be added once enough testing is done.
 - create branding and clean up code
 - create spins for WMs (help wanted)
 - add custom fonts package
+- add encryption support/test it
 - make the other DE spins, starting with GNOME
 - with time, I'll try to make a gnome variant of the ISO, something EZarcher haven't done so far.
 - you tell me :)
