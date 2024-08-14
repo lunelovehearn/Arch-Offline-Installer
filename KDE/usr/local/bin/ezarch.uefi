@@ -33,14 +33,14 @@ welcome () {
   clear
   echo "==================================================="
   echo "=                                                 ="
-  echo "=     Welcome to the Ezarch Installer Script      ="
+  echo "=     Welcome to the Arch Installer Script        ="
   echo "=                                                 ="
   echo "=     UEFI Edition                                ="
   echo "=     Revision: 2024.07.30                        ="
   echo "=                                                 ="
-  echo "=     Brought to you by eznix                     ="
+  echo "=     Brought to you by eznix and Lune Lovehearn  ="
   echo "=     https://sourceforge.net/projects/ezarch/    ="
-  echo "=                                                 ="
+  echo "=     https://github.com/lunelovehearn            ="
   echo -e "=================================================== \n"
   sleep 4
 }
