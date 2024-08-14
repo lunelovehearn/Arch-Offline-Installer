@@ -22,14 +22,14 @@ sidebar: widget
 navigation: widget
 
 strings:
-    productName:         "Ezarcher Linux"
-    shortProductName:    ezarcher
+    productName:         "Arch Linux"
+    shortProductName:    Arch Rolling
     version:             2024
     shortVersion:        2024
-    versionedName:       ezarcher
-    shortVersionedName:  ezarcher
-    bootloaderEntryName: ezarcher
-    productUrl:          https://sourceforge.net/projects/ezarch/
+    versionedName:       Arch Rolling
+    shortVersionedName:  Arch Rolling
+    bootloaderEntryName: Arch
+    productUrl:          https://archlinux.org
 
 images:
     productIcon:         "squid.png"
