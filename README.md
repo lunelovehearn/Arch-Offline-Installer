@@ -2,7 +2,8 @@
 A completely offline, vanilla Arch Linux installer.
 This is a work in progress, being done on my free time.
 
-## Forked from EZArcher by EZnix on SourceForge. All template credits go to him. 
+## Forked from EZArcher by EZnix on SourceForge. All template credits go to him.
+source: https://sourceforge.net/projects/ezarch/
 
 this project exists as a personal project as response to the official Arch ISO lacking an offline way to install Arch. Altought the official method is powerful and great, there are moments when a hi-speed internet connection is out of reach. that's where this project comes to mind. 
 
