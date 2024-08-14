@@ -34,7 +34,7 @@ automated monthly releases are planned.
   
 ## TO-DO list:
 
-- ~~remove root password requirement on live session login~~ thanks to HikariNeee for the fix.
+- ~~remove root password requirement on live session login~~ thanks to HikariNeee for the fix. (https://github.com/HikariNeee)
 - ~~enable autologin~~ fixed thanks to HikariNeee
 - add calamares installer icon on live session desktop
 - make calamares not ask for sudo password when being launched to install
