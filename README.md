@@ -57,4 +57,8 @@ Source project: https://sourceforge.net/projects/ezarch/
 3. Calamares Installer framework team
   Github: https://github.com/calamares/calamares
   Website: https://calamares.io/
+4. Arch Linux dev team: for making such flexible, powerful distro. Homepage: https://archlinux.org
+5. ArchWiki: one of the greatest Linux knowledge base on the web. without it I would not had been able to figure out things required for this project. visit it at https://wiki.archlinux.org/
+
+
 
