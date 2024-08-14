@@ -9,3 +9,8 @@ this project exists as a personal project as response to the official Arch ISO l
 
 with time, I'll try to make a gnome variant of the ISO, something EZarcher haven't done so far.
 releases will be added once enough testing is done.
+
+
+### Preview: 
+
+![VirtualBox_Archboot_14_08_2024_01_35_05](https://github.com/user-attachments/assets/7dbfc271-117e-4ac2-a4d2-53bc4206a248)
