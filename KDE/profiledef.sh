@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="arch-kde"
+iso_name="arch-kde-offline"
 iso_label="ARCH-KDE_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m)"
-iso_publisher="Ezarcher Linux <https://sourceforge.net/projects/ezarch/>"
+iso_publisher="Arch Linux <https://archlinux.org>"
 iso_application="Arch DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m%d)"
 install_dir="arch"
