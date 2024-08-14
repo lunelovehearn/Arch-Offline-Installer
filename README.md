@@ -16,7 +16,7 @@ releases will be added once enough testing is done.
 ![VirtualBox_Archboot_14_08_2024_01_35_05](https://github.com/user-attachments/assets/7dbfc271-117e-4ac2-a4d2-53bc4206a248)
 
 
-TO-DO list:
+## TO-DO list:
 
 - remove root password requirement on live session login
 - enable autologin
