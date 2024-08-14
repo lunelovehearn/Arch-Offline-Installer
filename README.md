@@ -48,8 +48,8 @@ automated monthly releases are planned.
 - you tell me :)
 
 # Sources:
+1. Main code forked from EZArcher by EZnix on SourceForge, without him and his advice, this project would had never came to be.
+Source project: https://sourceforge.net/projects/ezarch/
 
- ### Main code forked from EZArcher by EZnix on SourceForge. All template credits go to him.
-source: https://sourceforge.net/projects/ezarch/
-Main idea inspired by Archboot project, thanks to them for giving me advice and the base concepts and ideas to begin this project.
+2. Main idea inspired by Archboot project, thanks to them for giving me advice and the base concepts and ideas to begin this project.
 
