@@ -14,3 +14,18 @@ releases will be added once enough testing is done.
 ### Preview: 
 
 ![VirtualBox_Archboot_14_08_2024_01_35_05](https://github.com/user-attachments/assets/7dbfc271-117e-4ac2-a4d2-53bc4206a248)
+
+
+TO-DO list:
+
+- remove root password requirement on live session login
+- enable autologin
+- add calamares installer icon on live session desktop
+- set a custom wallpaper for the live session
+- make a script that removes calamares icon and itself once the system reboots to the newly installed system
+- add nvidia hardware support and boot entry
+- create branding and clean up code
+- create spins for WMs (help wanted)
+- add custom fonts package
+- make the other DE spins, starting with GNOME
+- you tell me :)
