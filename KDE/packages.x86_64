@@ -1,6 +1,8 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
-# Arch custom package list
+#
+#
+# Arch custom core package list
 #
 alsa-utils
 amd-ucode
@@ -75,7 +77,6 @@ mkinitcpio-archiso
 mkinitcpio-nfs-utils
 modemmanager
 mtools
-nano
 nbd
 ndisc6
 nfs-utils
@@ -92,7 +93,6 @@ openvpn
 partclone
 parted
 partimage
-partitionmanager
 pcsclite
 ppp
 pptpclient
@@ -155,6 +155,7 @@ dvd+rw-tools
 efitools
 encfs
 flatpak
+flatpak-xdg-utils
 f2fs-tools
 fuse3
 fwupd
@@ -164,6 +165,7 @@ gnome-disk-utility
 gnome-keyring
 gocryptfs
 gparted
+gsmartcontrol
 grsync
 hspell
 btop
@@ -180,8 +182,6 @@ libisoburn
 linux-lts-headers
 linux
 linux-headers
-linux-zen
-linux-zen-headers
 logrotate
 lsb-release
 openssl
@@ -264,6 +264,7 @@ gst-plugins-good
 gst-plugins-bad
 gst-plugins-ugly
 gstreamer-vaapi
+haruna
 imagemagick
 lame
 libdvdcss
@@ -271,9 +272,10 @@ libopenraw
 mencoder
 mjpegtools
 mpv
-haruna
 poppler-glib
-# Pipewire - comment out pulseaudio packages if using pipewire
+
+# Pipewire
+
 pipewire
 pipewire-alsa
 pipewire-audio
@@ -285,20 +287,14 @@ alsa-card-profiles
 gst-plugin-pipewire
 wireplumber
 qpwgraph
-# Pulseaudio - comment out pipewire packages if using pulseaudio
-# pulseaudio
-# pulseaudio-alsa
-# pulseaudio-bluetooth
-# pulseaudio-equalizer
-# pulseaudio-jack
 sox
-smplayer
 x265
 x264
 xvidcore
 yt-dlp
 
 # XORG
+
 mesa
 xclip
 xf86-input-evdev
@@ -326,12 +322,14 @@ xorg-xwayland
 xterm
 
 # Networking
+
 avahi
 curl
 dnsutils
 ethtool
 firefox
 gnome-nettool
+gufw
 inetutils
 iptables-nft
 modemmanager
@@ -346,11 +344,11 @@ nss-mdns
 openbsd-netcat
 openresolv
 thunderbird
+ufw
 wget
 whois
-ufw
-gufw
-
+#
+#
 # Fonts
 ttf-dejavu
 ttf-liberation
@@ -413,6 +411,7 @@ fastfetch
 okular
 oxygen
 packagekit-qt6
+partitionmanager
 papirus-icon-theme
 pavucontrol-qt
 plasma-browser-integration
@@ -463,7 +462,7 @@ qt6-webengine
 solid
 yaml-cpp
 
-# Calamares
+# Calamares dependencies
 calamares
 ckbcomp
 mkinitcpio-openswap
