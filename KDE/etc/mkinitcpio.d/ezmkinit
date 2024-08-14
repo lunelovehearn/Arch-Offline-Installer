@@ -1,4 +1,5 @@
-# mkinitcpio preset file for the 'linux-lts' package
+# mkinitcpio preset file for the 'linux' package
+# original file points to linux-lts package
 
 ALL_config="/etc/mkinitcpio.conf"
 ALL_kver="/boot/vmlinuz-linux"
