@@ -23,11 +23,11 @@ navigation: widget
 
 strings:
     productName:         "Arch Linux"
-    shortProductName:    Arch Rolling
+    shortProductName:    Arch Offline
     version:             2024
     shortVersion:        2024
-    versionedName:       Arch Rolling
-    shortVersionedName:  Arch Rolling
+    versionedName:       Arch Offline
+    shortVersionedName:  Arch Offline
     bootloaderEntryName: Arch
     productUrl:          https://archlinux.org
 
