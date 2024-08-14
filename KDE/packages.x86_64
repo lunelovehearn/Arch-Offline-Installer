@@ -316,8 +316,8 @@ mesa-vdpau
 # geforce RTX-GTX closed source drivers
 nvidia
 nvidia-utils
-libva-vdpau-drivers
-nvidia settings
+libva-vdpau-driver
+nvidia-settings
 
 # Geforce open driver
 xf86-video-nouveau
