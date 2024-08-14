@@ -1,9 +1,9 @@
 # GRUB boot loader configuration
 
-GRUB_DEFAULT=0
+GRUB_DEFAULT=saved
 GRUB_TIMEOUT=3
-GRUB_DISTRIBUTOR="ezarcher"
-GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3"
+GRUB_DISTRIBUTOR="Arch"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash loglevel=3"
 GRUB_CMDLINE_LINUX=""
 GRUB_EARLY_INITRD_LINUX_STOCK=""
 
@@ -36,7 +36,7 @@ GRUB_GFXPAYLOAD_LINUX=keep
 #GRUB_DISABLE_LINUX_UUID=true
 
 # Uncomment to disable generation of recovery mode menu entries
-GRUB_DISABLE_RECOVERY=true
+#GRUB_DISABLE_RECOVERY=true
 
 # Uncomment and set to the desired menu colors.  Used by normal and wallpaper
 # modes only.  Entries specified as foreground/background.
@@ -52,7 +52,7 @@ GRUB_DISABLE_RECOVERY=true
 
 # Uncomment to make GRUB remember the last selection. This requires
 # setting 'GRUB_DEFAULT=saved' above.
-#GRUB_SAVEDEFAULT=true
+GRUB_SAVEDEFAULT=true
 
 # Uncomment to disable submenus in boot menu
 #GRUB_DISABLE_SUBMENU=y
