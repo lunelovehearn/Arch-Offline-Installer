@@ -293,20 +293,47 @@ x264
 xvidcore
 yt-dlp
 
+# Intel video drivers
+vulkan-intel
+libvdpau-va-gl
+libva-intel-driver
+
+# Note: intel and AMD share mesa as base driver, nvidia uses mesa when using open source
+
+# intel and amd common driver
+mesa
+
+# AMD video drivers
+vulkan-radeon
+xf86-video-amdgpu
+xf86-video-ati
+libva-mesa-driver
+mesa-vdpau
+
+# Nvidia video drivers (untested)
+# uncomment the following to add nvidia graphics support
+# geforce RTX-GTX closed source drivers
+# nvidia
+# nvidia-utils
+# libva-vdpau-drivers
+# nvidia settings
+
+# Geforce open driver
+# xf86-video-nouveau
+
+#Hybrid nvidia graphics manager
+# nvidia-prime
+
 # XORG
 
-mesa
 xclip
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
-xf86-video-amdgpu
-xf86-video-ati
 xf86-video-dummy
 xf86-video-fbdev
-xf86-video-nouveau
 xf86-video-qxl
 xf86-video-vesa
 xf86-video-vmware
@@ -319,7 +346,6 @@ xorg-server
 xorg-server-common
 xorg-xinit
 xorg-xwayland
-xterm
 
 # Networking
 
@@ -347,8 +373,8 @@ thunderbird
 ufw
 wget
 whois
-#
-#
+
+
 # Fonts
 ttf-dejavu
 ttf-liberation
