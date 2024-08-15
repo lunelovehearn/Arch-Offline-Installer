@@ -24,7 +24,7 @@ automated monthly releases are planned.
 
 ### Preview: 
 
-![Captura de pantalla_20240814_125558](https://github.com/user-attachments/assets/5669d358-5283-4b54-a552-45d2698eadbd)
+![VirtualBox_Archboot_15_08_2024_00_04_25](https://github.com/user-attachments/assets/e5ee9972-2c11-4920-aa98-132df79c46ef)
 
 
 # Help wanted
@@ -40,7 +40,7 @@ automated monthly releases are planned.
 - ~~remove root password requirement on live session login~~ thanks to HikariNeee for the fix. (https://github.com/HikariNeee)
 - ~~enable autologin~~ fixed thanks to HikariNeee
 - add calamares installer icon on live session desktop
-- make calamares not ask for sudo password when being launched to install
+~~- make calamares not ask for sudo password when being launched to install~~ fixed. thanks to carli guide regarding /etc/sudoers.d and figured out by adding code to the build.sh shadow and other related files.
 - set a custom wallpaper for the live session
 - make a script that removes calamares icon and itself once the system reboots to the newly installed system
 - add nvidia hardware support and boot entry (wip)
