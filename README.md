@@ -57,7 +57,7 @@ I started this project for myself, because after installing Arch countless times
 - "What if I don't want to setup my system from the ground up, the wiki way all the time that I'm going to reinstall Arch, but have a quick, express way to have barebones, vanilla Arch?"
 
 ### So, to cover all those scenarios, mostly the internet requirement, I began my research, ending on this project. 
-Taking inspiration from Archboot project (https://archboot.com/), which has a local mirrors ISO, and using EZArcher code as base, this project began to be.
+Taking inspiration from Archboot project (https://archboot.com/), which has a local mirrors ISO, and using EZArcher code as base, I began working on this project.
 
 ------------
 # Credits:
