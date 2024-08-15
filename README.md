@@ -22,19 +22,29 @@ The isos boot into a live enviroment from where the user can live test the syste
 
 
 # Help wanted
-- to configure WMs/write documentation
-- beta testers with real hardware, mostly nvidia users
-- need help adding an nvidia boot option to grub ISO
-- help adding more features to calamares
-- help with cleaning the code
+- to configure planned WMs spins
+- to write project documentation and changelogs.
+- beta testers with real hardware, mostly nvidia users.
+- need help configuring boot entries, so users can boot either with open source drivers, nomodeset for fallback, and nvidia for nvidia users.
+- help adding more features to calamares, like a package chooser.
+- help with reviewing and improving the code.
 
 # FAQ
 1. Q: Are you making your own custom Arch-based distro?
-   R: No. this project goal isn't becoming an Arch based full fledged distro, but rather remain as close as possible to the vanilla base, but completely offline + minor tweaks inspired by Archboot project (https://archboot.com).
-2. Q: Will you add X feature?
-R: 
-3. *placeholder*
-4. *placeholder*  
+   A: No. This project goal isn't becoming an Arch based full fledged distro, but rather remain as close as possible to the vanilla base, but completely offline + minor tweaks inspired by Archboot project (https://archboot.com).
+   
+3. Q: Will you add X feature?
+   A:
+   
+5. Q: Can I install Arch with your ISO even if I have internet?
+   R: Yes, you can. the system will still not require internet to be installed nor use it at all. having an internet connection will not affect the installation process.
+   
+7. Q: How can I install this on my system?
+8. A: I highly recommend using Ventoy (https://ventoy.net) to create your USB bootable media, as it's multiboot feature will come handy so you can try several spins of this project at once. once you create the bootable media, reboot to your USB and try the live desktop. on it, there's a desktop icon with the installer. double click it to begin the installation. follow the steps on screen.
+
+9. Q: *placeholder*
+   A: *placeholder*
+10. Q: *placeholder*
 
 ------------
 # Personal Insight:
