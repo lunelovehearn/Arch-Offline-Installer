@@ -47,8 +47,16 @@ The isos boot into a live enviroment from where the user can live test the syste
 10. Q: *placeholder*
 
 ------------
-# Personal Insight:
-I started this project for myself, after installing Arch countless times, using both the wiki, manual way, and the official archinstall script. great, you get a vanilla barebones system, but I've faced times when the internet connection became unstable or just disconnected, rendering the install process into a broken mess. after researching, and trying several solutions, including archboot, from which I took inspiration for this project (https://archboot.com/), I was still unsatisfied with the results. so, I began working on this. 
+# Project Background:
+I started this project for myself, because after installing Arch countless times, using both the wiki, aka manual way, and the official archinstall script I thought: 
+"What if the internet connection becomes unstable or just disconnects on the Wiki manual process?" 
+"what if official archinstall script is unable to properly configure the mirrors to the closest one to the user, giving errors, halting the installation, resulting on an unusable system?"
+"What if I just want to save bandwidth and time, by just using a local mirror so the process is more express?"
+"What if I want an express installation for testing Arch on a VM?"
+"What if I don't want to setup my system from the ground up, the wiki way all the time that I'm going to reinstall Arch, but have a quick, express way to have barebones, vanilla Arch?"
+
+### So, to cover all those scenarios, mostly the internet requirement, I began my research, ending on this project. 
+Taking inspiration from Archboot project (https://archboot.com/), which has a local mirrors ISO, and using EZArcher code as base, this project began to be.
 
 ------------
 # Credits:
