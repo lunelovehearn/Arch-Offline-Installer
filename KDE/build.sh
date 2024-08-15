@@ -7,18 +7,19 @@
 # ----------------------------------------
 # Define Variables
 # ----------------------------------------
-
+# username for the live session. use all lowercase letters only
 MYUSERNM="live"
-# use all lowercase letters only
 
+# user password for the live session. use a password of your choice
 MYUSRPASSWD="arch"
-# Pick a password of your choice
+#MYUSRPASSWD=""
 
+# Root password for the live session.  type a root password of your choice
 RTPASSWD="arch"
-# Pick a root password
+#RTPASSWD=""
 
-MYHOSTNM="arch"
-# Pick a hostname for the machine
+# Hostname used during the live session. Pick a hostname for the machine
+MYHOSTNM="archlive"
 
 # ----------------------------------------
 # Functions
@@ -55,6 +56,8 @@ prepreqs () {
 pacman -S --needed --noconfirm archiso mkinitcpio-archiso
 }
 
+
+
 # Copy ezreleng to working directory
 cpezreleng () {
 cp -r /usr/share/archiso/configs/releng/ ./ezreleng
@@ -79,8 +82,9 @@ rm -r /opt/ezrepo
 }
 
 # Remove auto-login, cloud-init, hyper-v, iwd, sshd, & vmware services
-#rmunitsd () {
-#rm -r ./ezreleng/airootfs/etc/systemd/system/cloud-init.target.wants
+rmunitsd () {
+rm -r ./ezreleng/airootfs/etc/systemd/system/cloud-init.target.wants
+}
 #rm -r ./ezreleng/airootfs/etc/systemd/system/getty@tty1.service.d
 #rm ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants/hv_fcopy_daemon.service
 #rm ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants/hv_kvp_daemon.service
@@ -89,8 +93,6 @@ rm -r /opt/ezrepo
 #rm ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants/vmtoolsd.service
 #rm ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants/sshd.service
 #rm ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants/iwd.service
-#}#
-##
 
 # Add cups, haveged, NetworkManager, & sddm systemd links
 addnmlinks () {
@@ -156,6 +158,9 @@ storage:x:860:"${MYUSERNM}"
 optical:x:870:"${MYUSERNM}"
 sambashare:x:880:"${MYUSERNM}"
 users:x:985:"${MYUSERNM}"
+nopasswdlogin:x:966:"${MYUSERNM}"
+autologin:x:967:"${MYUSERNM}"
+liveuser:x:1000:"${MYUSERNM}"
 "${MYUSERNM}":x:1010:" > ./ezreleng/airootfs/etc/group
 }
 
@@ -186,6 +191,8 @@ video:!*::"${MYUSERNM}"
 storage:!*::"${MYUSERNM}"
 optical:!*::"${MYUSERNM}"
 sambashare:!*::"${MYUSERNM}"
+nopasswdlogin:!::"${MYUSERNM}"
+autologin:!::"${MYUSERNM}"
 "${MYUSERNM}":!*::" > ./ezreleng/airootfs/etc/gshadow
 }
 
@@ -205,7 +212,7 @@ cleanup
 cpezreleng
 addnmlinks
 cpezrepo
-#rmunitsd
+rmunitsd
 cpmyfiles
 sethostname
 crtpasswd

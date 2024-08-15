@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="arch-kde-offline"
-iso_label="ARCH-KDE_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m)"
+iso_label="Arch-kde-offline_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m)"
 iso_publisher="Arch Linux <https://archlinux.org>"
 iso_application="Arch DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m%d)"
@@ -22,6 +22,8 @@ file_permissions=(
   ["/etc/sudoers"]="0:0:0440"
   ["/root"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
+  ["/etc/sudoers.d"]="0:0:750"
+  ["/etc/sudoers.d/g_wheel"]="0:0:440"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
